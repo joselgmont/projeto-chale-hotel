@@ -1,0 +1,67 @@
+/*Formatação da area principal*/
+#area-principal{
+    float: left;
+    width: 50%;
+    padding: 15px 0px;
+    background: url(../imagens/bg-area-principal.png) top repeat-x;
+}
+/*End of area-principal*/
+
+/*Formatação da area principal*/
+#area-lateral{
+    float: right;
+    width: 50%;
+    padding: 20px 0px;
+    background: url(../imagens/bg-area-lateral.png) top repeat-x;
+}
+/*End of area-lateral*/
+
+/*Caixas para inserção de conteudos*/
+.caixa-conteudo{
+    margin: 0px auto;
+    width: 90%;
+}
+/*End of caixa-conteudo*/
+
+/*Formatação de texto*/
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/*End of formatação de texto*/
+
+/*Formatação da lista de beneficios*/
+#beneficios li a img{
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;;
+    height: 6em;
+}
+
+#beneficios li a p{
+    font-size: 0.8em;
+    color: black;
+}
+
+#beneficios li a h3{
+    background: url(../imagens/ornamento.png) top right no-repeat;
+    font-size: 1em;
+    padding: 5px;
+    color: #7d7640;
+}
+
+#beneficios li:hover{
+    background-color: #f6f3d6;
+    cursor: pointer;
+}
+/*End of formatação da lista de beneficios*/
